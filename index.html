@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,12 +8,72 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="data.js"></script>
   <title>Login</title>
 </head>
 
 <body>
-The content of the document......
+  <div class="container">
+    <div class="row" id="div1">
+      <div class="a col-md-3"></div>
+      <div class="a col-md-6">
+        <div class="image">
+          <img id="photo" src="images/david.jpg">
+        </div>
+        <form id="form" method="post" action="">
+          <div class="form-group">
+            <div>
+              <label id="l_email" for="email"></label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address"></input>
+              <div class="span">
+                <span id="invalidEmail" class="error"></span>
+              </div>
+            </div>
+            <div>
+              <label id="l_password" for="password"></label>
+              <input type="text" class="form-control" id="password" name="password" placeholder="Enter your password"></input>
+            </div>
+            <div >
+              <label class="toggle">
+                <input type="checkbox" id="checkbox_id">
+                <span></span>
+              </label>
+              <label id="l_rememberMe" for="checkbox_id"></label>
+            </div>
+          </div>
+        </form>
+        <div id="submit" class="footer">
+          <a href="#" id="forgot"></a>
+          <button type="button" id="login" class="btn btn-outline-secondary"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="div2">
+      <div class="a col-md-3"></div>
+      <div class="a col-md-6">
+        <div class="image">
+          <img id="photo" src="images/david.jpg">
+          <label id="reset"></label>
+        </div>
+        <form id="form" method="post" action="">
+          <div class="form-group">
+            <div id="paragraph"></div>
+            <div>
+              <label id="l2_email" for="email"></label>
+              <div><input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address"></input</div>
+              </div>
+            </div>
+        </form>
+        </div>
+        <div id="submit">
+          <button id="cancel" type="button" class="btn btn-outline-secondary"></button>
+          <button id="resetPassword" type="button" class="btn btn-outline-secondary"></button>
+        </div>
+      </div>
+    </div>
 </body>
+<script type="text/javascript" src="index.js"></script>
 
 </html>

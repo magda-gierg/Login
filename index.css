@@ -1,0 +1,176 @@
+div#div2 {
+  display: none;
+}
+
+.error {
+  display: none;
+  margin-left: 10px;
+}
+
+span.error_show {
+  margin-top: 0;
+  color: red;
+}
+
+div.span {
+  line-height: .8rem;
+  text-align: right;
+}
+
+input.invalid {
+  border: 2px solid red;
+}
+
+input.valid {
+  border: 2px solid green;
+}
+
+input#email, input#password {
+  margin-bottom: 30px;
+}
+
+input[type="email"], input[type="text"] {
+  background-image: url("images/astriks.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  s
+}
+
+.btn-outline-secondary {
+  background-color: white;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+body {
+  margin-top: 100px;
+  background-image: url("images/background.jpg");
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: #696969;
+}
+
+div#submit {
+  text-align: right;
+  background-color: #D3D3D3;
+  padding: 20px;
+}
+
+img#photo {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  border: 2px solid #0094bb;
+}
+
+.image {
+  background-color: #0094bb;
+  padding: 20px;
+}
+
+.form-group {
+  background-color: #DCDCDC;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+input#email.form-control.invalid {
+  margin-bottom: 0;
+}
+
+a {
+  color: #0094bb;
+}
+
+label#reset {
+  color: white;
+  font-size: 25px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.form-control {
+  border: 0;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+
+p {
+  font-size: .8rem;
+}
+
+button#cancel.btn.btn-outline-secondary {
+  border-color: #cc0849;
+  background-color: white;
+  color: #cc0849;
+  float: left;
+}
+
+button#cancel.btn.btn-outline-secondary:hover {
+  border-color: white;
+  background-color: #cc0849;
+  color: white;
+  float: left;
+}
+
+button#login.btn.btn-outline-secondary:hover {
+  background-color: #0094bb;
+  color: white;
+  border-color: white;
+}
+
+label.toggle>input {
+  display: none;
+}
+
+label.toggle>span {
+  display: inline-block;
+  width: 25px;
+  height: 26px;
+  background: url("images/unchecked.png");
+}
+
+label.toggle>input:checked+span {
+  background-image: url("images/checked.png");
+}
+
+label#l_rememberMe {
+  vertical-align: text-bottom;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  label#reset {
+    font-size: 17px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+  ...
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+  ...
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+  ...
+}
